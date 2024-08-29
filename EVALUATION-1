@@ -1,0 +1,13 @@
+students = {}
+def studentGrade(name,standard,height,weight,sport):
+    if name not in students.keys():
+        students[name] = {
+            "standard":standard,
+            "height":height,
+            "weight":weight,
+            "sport":sport,
+        }
+    else:
+        printf("student already exist!")
+        
+def add_student(name,standard,height,weight,sport):
