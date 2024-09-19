@@ -1,0 +1,8 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.signal import convolve
+
+heart_rate_data = 100*np.random.rand(1,1440)
+
+print(heart_rate_data)
+plt.plot(heart_rate_data)
